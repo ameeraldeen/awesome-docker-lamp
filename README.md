@@ -1,15 +1,31 @@
-# awesome-docker-lamp
-A simple LAMP script using Ubuntu, Apache, PHP and MySql based on single docker image.
+# Awesome Docker Lamp
+A Docker image with simple script to build LAMP stack apps (Ubuntu, Apache, PHP and MySql) using single docker image.
 
-# make sure your host ports are open and not in use.
-PORT_HOST=8001
-PORT_HOST_SQL=3306
+<img src="others/2.png" width="300"><img src="others/1.png" width="300">
 
 
-PORT_INNER=80
+## Run:
+
+- `git clone git@github.com:khaledalam/awesome-docker-lamp.git`
+- `cd awesome-docker-lamp`
+- `$ bash run.sh`
+
+Goto url: http://your_host_ip:8000 <br>
+ex. http://127.0.0.1:8000 <br>
+ex. http://localhost:8000 <br>
+
+## FAQ:
+- 
+
+
+## Make sure your host ports are open and not in use.
+`PORT_HOST=8001` <br>
+`PORT_HOST_SQL=3306`
+
+
+PORT_INNER=80 <br>
 PORT_INNER_SQL=3306
 
-## Run
 
-`$ bash run.sh`
-
+## Inspiration
+This image was originally based on [mattrayner/docker-lamp](https://github.com/mattrayner/docker-lamp), with a few changes to make building much eaiser.
