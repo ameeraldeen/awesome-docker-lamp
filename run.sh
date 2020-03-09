@@ -29,7 +29,7 @@ docker run -d \
 	-p ${PORT_HOST}:${PORT_INNER} \
 	-p ${PORT_HOST_SQL}:${PORT_INNER_SQL} \
 	-v $PWD/examples/simple-php-with-mysql:/app \
-	--name ${APP_NAME} mattrayner/lamp:latest-1804;
+	--name ${APP_NAME} khaledalam/awesome-docker-lamp:latest-without-node;
 echo "Finish dockering.";
 
 

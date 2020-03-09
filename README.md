@@ -26,7 +26,7 @@ ex. http://127.0.0.1:8000 <br>
 ex. http://localhost:8000 <br>
 
 ## FAQ
-- > got error `.. bind: address already in use..`
+- Got error `.. bind: address already in use..`
     ```
     Make sure to use ports which are open and not in use on your host machine.
     
