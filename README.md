@@ -1,16 +1,24 @@
 # Awesome Docker Lamp
 A Docker image with simple script to build LAMP stack apps (Ubuntu, Apache, PHP and MySql) using single docker image.
 
-<img src="others/2.png" width="300"><img src="others/1.png" width="300">
+<img src="others/2.png" width="400"><img src="others/1.png" width="400">
+
+## Features (NEW)
+- `nano` editor added!
+- new version with `node` and `npm` added!
+
+
+## Tags
+- without node: (~845MB)<br>`docker pull khaledalam/awesome-docker-lamp:latest-without-node`
+- with node: (~920MB)<br>`docker pull khaledalam/awesome-docker-lamp:latest-with-node`
 
 
 ## Run:
-
 - `git clone git@github.com:khaledalam/awesome-docker-lamp.git`
 - `cd awesome-docker-lamp`
-- `$ bash run.sh`
+- `bash run.sh`
 
-Goto url: http://your_host_ip:8000 <br>
+go to url: http://your_host_ip:8000 <br>
 ex. http://127.0.0.1:8000 <br>
 ex. http://localhost:8000 <br>
 

@@ -18,7 +18,7 @@ DB_SQL_FILE=examples/simple-php-with-mysql/dummy.sql;
 
 
 echo "Start cloning...";
-sudo rm -rf ${APP_NAME} || true;
+rm -rf ${APP_NAME} || true;
 git clone ${REPO} ${APP_NAME};
 echo "Finish cloning.";
 
