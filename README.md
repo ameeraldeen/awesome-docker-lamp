@@ -1,5 +1,6 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/khaledalam/awesome-docker-lamp)
 ![Docker Stars](https://img.shields.io/docker/stars/khaledalam/awesome-docker-lamp)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/khaledalam/awesome-docker-lamp)
 
 # Awesome Docker Lamp
 A Docker image with simple script to build LAMP stack apps (Ubuntu, Apache, PHP and MySql) using single docker image.
